@@ -1,7 +1,14 @@
 {
     "class_id": "com-snaplogic-pipeline",
     "class_version": 8,
-    "link_map": {},
+    "link_map": {
+        "link101": {
+            "dst_id": "11111111-1111-1111-1111-000000000001",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output0"
+        }
+    },
     "property_map": {
         "error": {
             "error_behavior": {
@@ -23,25 +30,8 @@
                 "value": null
             }
         },
-        "input": {
-            "11111111-1111-1111-1111-000000000001_input0": {
-                "label": {
-                    "value": "Mapper - input0"
-                },
-                "view_type": {
-                    "value": "document"
-                }
-            }
-        },
+        "input": {},
         "output": {
-            "11111111-1111-1111-1111-000000000000_output0": {
-                "label": {
-                    "value": "REST Post - output0"
-                },
-                "view_type": {
-                    "value": "document"
-                }
-            },
             "11111111-1111-1111-1111-000000000001_output0": {
                 "label": {
                     "value": "Mapper - output0"
